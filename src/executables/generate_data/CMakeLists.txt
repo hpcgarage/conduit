@@ -2,6 +2,8 @@
 # Project developers. See top-level LICENSE AND COPYRIGHT files for dates and
 # other details. No copyright assignment is required to contribute to Conduit.
 
+#set(CMAKE_VERBOSE_MAKEFILE "1")
+
 if(ENABLE_UTILS)
     blt_add_executable(
         NAME        conduit_generate_data

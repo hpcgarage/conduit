@@ -3912,3 +3912,5 @@ tiled(conduit::index_t nx, conduit::index_t ny, conduit::index_t nz,
 
 
 
+// Force instatiation of ostringstream
+template class std::basic_stringstream<char>;

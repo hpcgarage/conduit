@@ -565,4 +565,5 @@ NodeConstChildIterator NodeConstIterator::cend() const {
 // -- end conduit:: --
 //-----------------------------------------------------------------------------
 
-
+// Force instatiation of ostringstream
+template class std::basic_stringstream<char>;

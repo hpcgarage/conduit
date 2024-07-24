@@ -2,6 +2,8 @@
 # Project developers. See top-level LICENSE AND COPYRIGHT files for dates and
 # other details. No copyright assignment is required to contribute to Conduit.
 
+#set (CMAKE_VERBOSE_MAKEFILE "1")
+
 # Create an interface target to hold the common flags for python targets
 add_library(conduit_python_build INTERFACE)
 install(TARGETS conduit_python_build EXPORT "conduit")

@@ -2054,3 +2054,9 @@ std::vector<conduit::index_t> factor(conduit::index_t num)
 //-----------------------------------------------------------------------------
 
 
+// Force instatiation of ostringstream
+template class std::basic_ostringstream<char>;
+
+template class conduit_fmt::dynamic_format_arg_store<conduit_fmt::format_context>;
+
+template class conduit_fmt::v7::basic_memory_buffer<unsigned int, 32ul, std::allocator<unsigned int> >;

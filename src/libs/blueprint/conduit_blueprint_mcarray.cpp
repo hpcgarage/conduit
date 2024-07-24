@@ -453,3 +453,6 @@ bool verify(const conduit::Node &n,
 //-----------------------------------------------------------------------------
 // -- end conduit:: --
 //-----------------------------------------------------------------------------
+
+// Force instatiation of ostringstream
+template class std::basic_ostringstream<char>;
